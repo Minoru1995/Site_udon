@@ -18,3 +18,9 @@ function slideSwitch() {
 $(function() {
    setInterval( "slideSwitch()", 3000 );
 });
+
+$(function() {
+$("#mainMenu > li > a").on("click", function(){
+     $(this).next('.subMenu').toggle("fast");
+ });
+});
