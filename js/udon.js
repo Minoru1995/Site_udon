@@ -1,4 +1,4 @@
-function slideSwitch() {
+$(function slideSwitch() {
    var $active = $('#slideshow img.active');
 
    if ( $active.length == 0 ) $active = $('#slideshow img:last');
@@ -13,14 +13,19 @@ function slideSwitch() {
       .animate({opacity: 1.0}, 1000, function() {
            $active.removeClass('active last-active');
       });
-}
+});
 
 $(function() {
    setInterval( "slideSwitch()", 3000 );
 });
 
-$(function() {
-$("#mainMenu > li > a").on("click", function(){
-     $(this).next('.subMenu').toggle("fast");
- });
+$(function() {	
+	$("#mainMenu > li > a").on("click", function() {
+      var speed = "fast";
+      var parent = $(this).parent("li");
+
+      $(this).next('.subMenu').slideToggle(speed);
+      parent.prevAll().children(".subMenu").hide(speed);
+      parent.nextAll().children('.subMenu').hide(speed);
+  });
 });
