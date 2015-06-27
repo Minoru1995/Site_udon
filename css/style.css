@@ -164,3 +164,25 @@ nav a{
     width: 900px;
 }
 */
+
+
+
+/* .subMenu */
+
+ul.subMenu {
+	/*position: absolute;*/
+	display: none;
+}
+.subMenu > li > a {
+	background-color: #FFF;
+	width: 180px;
+	padding: 10px;
+
+	display: block;
+}
+.subMenu > li > a:hover {
+	background-color: #AAA;
+}
+
+
+/* ==== アコーディオンメニューをつくろう：ここまで ==== */
