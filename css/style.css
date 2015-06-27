@@ -3,7 +3,11 @@
     padding: 0;
 }
 
-
+body{
+    width: 900px;
+    height: 600px;
+}
+/*トップページ*/
 #slideshow {
    position: relative;
    width:  1007px;
@@ -25,4 +29,79 @@
 
 #slideshow img.last-active {
    z-index: 9;
+}
+
+#start img{
+    position: absolute;
+    top: 390px;
+    left: 90px;
+    z-index: 11;
+}
+
+#start img:hover{
+    border-color: black;
+}
+
+/*マップ*/
+.title {
+    margin-left: 5px;
+}
+
+.title h1{
+    padding-left: 10px; 
+    font-weight: 100;
+}
+.col-hero{
+    width: 900px;
+    height: 600px;
+    background-image: url(../images/hero.png);
+    background-position: center center;
+    background-size: cover;
+    margin-left: 5px;
+}
+
+.map{
+    width: 600px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.sidebar{
+    float: right;
+    width: 295px;
+    height: 455px;
+    margin-top: 5px;
+    background-image: url(../images/menu.png);
+    border-radius: 2em;
+}
+
+.sidebar h1{
+    font-weight: 100;
+    margin-left: 10px;
+}
+
+.sidebar p{
+    margin-left: 5px;
+    margin: 10px;
+    font-size: 25px;
+}
+
+
+.access{
+    margin-left: 5px;
+    float: left;
+    margin-top: 5px;
+    width: 595px;
+    background-image: url(../images/access.png);
+    border-radius: 2em;
+}
+
+.access h1{
+    font-weight: 100;
+    margin-left: 9px;
+}
+
+.access p{
+    margin-left: 10px;
 }
