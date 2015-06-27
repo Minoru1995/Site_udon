@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <title>MAP</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="js/jquery-1.11.3.min.js">
-    <link rel="stylesheet" href="js/udon.js">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/udon.js"></script>
 </head>
 <body>
 <div class="wrap">
@@ -15,6 +15,7 @@
     
     </div>
 -->
+   <div class="mainBox">
     <div class="map">
         <img src="images/map.png" alt="">
         </div>
@@ -23,49 +24,86 @@
 <nav>
     <ul id="mainMenu">
         <li>
-            <a href="#">①上原屋本店</a>
-            <div class="subMenu">
-<!--                ここに内容-->
-           <img src="images/button.png" alt="">
-           <p>uuuu</p>
-            </div>
+            <a href="javascript:void(0)">①上原屋本店</a>
+            <ul class="subMenu">
+                <li>
+                <p>TEL／087-831-6779</p>
+                <p>住所／香川県高松市栗林町1-18-8</p>
+                <p>営業時間／9時～16時（麺がなくなり次第終了）</p>
+                <p>定休日／日</p>
+                <a href="http://tabelog.com/kagawa/A3701/A370101/37000048/" target="_blank">食べログ</a></li>
+            </ul>
         </li>
         <li>
-            <a href="#">②わら家</a>
-            <div class="subMenu">
-               
-            </div>   
+            <a href="javascript:void(0)">②わら家</a>
+            <ul class="subMenu">
+            <li>
+            <p>TEL／087-843-3115</p>
+            <p>住所／香川県高松市屋島中町91</p>
+            <p>営業時間／10時～18時30分（土日祝9時～）</p>
+            <p>定休日／なし</p>
+                            <a href="http://tabelog.com/kagawa/A3701/A370101/37000057/" target="_blank">食べログ</a></li>
+            </ul>  
         </li>
         <li>
-            <a href="#">③うどん番長</a>
-            <dis class="subMenu">
-                
-            </dis>
+            <a href="javascript:void(0)">③うどん番長</a>
+            <ul class="subMenu">
+            <li>
+            <p>TEL／087‐867‐3970</p>
+            <p>住所／香川県高松市花ノ宮町3‐4‐12</p>
+            <p>営業時間／10時30分～15時</p>
+            <p>定休日／水</p>
+            <a href="http://tabelog.com/kagawa/A3701/A370101/37006825/" target="_blank">食べログ</a>
+            </li>
+            </ul>
         </li>
         <li>
-            <a href="#">④麦屋</a>
-            <dis class="subMenu">
-                
-            </dis>
+            <a href="javascript:void(0)">④麦屋</a>
+            <ul class="subMenu">
+            <li>
+            <p>TEL／0877-86-2910</p>
+            <p>住所／香川県丸亀市綾歌町岡田上1898-3</p>
+            <p>営業時間／10時～15時</p>
+            <p>定休日／水（祝日の場合翌日）</p>
+            <a href="http://tabelog.com/kagawa/A3702/A370202/37006914/" target="_blank">食べログ</a>
+            </li>
+            </ul>
         </li>
         <li>
-            <a href="#">⑤日の出製麺所</a>
-            <dis class="subMenu">
-                
-            </dis>
+            <a href="javascript:void(0)">⑤日の出製麺所</a>
+            <ul class="subMenu">
+            <li>
+            <p>TEL／0877-46-3882</p>
+            <p>住所／香川県坂出市富士見町1-8-5</p>
+            <p>営業時間／11時30分～12時30分（お土産販売9時～17時）</p>
+            <p>定休日／不定</p>
+            <a href="http://tabelog.com/kagawa/A3702/A370201/37000016/" target="_blank">食べログ</a>
+            </li>
+            </ul>
         </li>
         <li>
-            <a href="#">⑥三好うどん</a>
-            <div class="subMenu">
-                
-            </div>
-            
+            <a href="javascript:void(0)">⑥三好うどん</a>
+            <ul class="subMenu">
+            <li>
+            <p>TEL／090-1000-7908</p>
+            <p>住所／香川県三豊市三野町大見木江5659-1</p>
+            <p>営業時間／10～14時</p>
+            <p>定休日／月</p>
+            <a href="http://tabelog.com/kagawa/A3703/A370303/37006022/" target="_blank">食べログ</a>
+            </li>
+            </ul>
             </li>
     <li>
-            <a href="#">⑦うどんや　まるちゃん</a>
-            <div class="subMenu">
-                
-            </div>
+            <a href="javascript:void(0)">⑦うどんや　まるちゃん</a>
+            <ul class="subMenu">
+            <li>
+            <p>TEL／0879-33-5358</p>
+            <p>住所／香川県東かがわ市引田511-5</p>
+            <p>営業時間／11時～15時（麺がなくなり次第終了）</p>
+            <p>定休日／月（祝日の場合は翌日）</p>
+            <a href="http://tabelog.com/kagawa/A3704/A370402/37006939/" target="_blank">食べログ</a>
+            </li>
+            </ul>
             
             </li>
     </ul>
@@ -75,9 +113,8 @@
        <div class="access">
         <p>お車の場合、大阪から高速道路で約2時間30分</p>
         <p>鉄道の場合、大阪から新幹線を使って約2時間</p>
-           <p>その他詳しい情報はこちら→http://www.my-kagawa.jp/access/dep03.php</p>
+           <p>その他詳しい情報は<a href="http://www.my-kagawa.jp/access/dep03.php" target="_blank">こちら</a></p>
     </div>
-   
-    
+</div>
 </body>
 </html>
